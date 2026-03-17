@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+  --color-brand-cream: #fffaf0;
+  --color-brand-saffron: #ff9933;
+  --color-brand-chili: #b22222;
+  --color-brand-turmeric: #daa520;
+  --color-brand-emerald: #00843d; /* Indian Green */
+  --color-brand-indigo: #3f51b5; /* Royal Blue */
+  --color-brand-magenta: #e91e63; /* Festive Pink */
+  --color-brand-ink: #2c1e1e;
+}
+
+body {
+  @apply bg-brand-cream text-brand-ink font-sans antialiased;
+}
+
+.serif {
+  @apply font-serif;
+}
+
+.indian-gradient {
+  background: linear-gradient(135deg, var(--color-brand-saffron) 0%, var(--color-brand-chili) 100%);
+}
+
+.festive-gradient {
+  background: linear-gradient(135deg, var(--color-brand-magenta) 0%, var(--color-brand-indigo) 100%);
+}
+
+.emerald-gradient {
+  background: linear-gradient(135deg, var(--color-brand-emerald) 0%, var(--color-brand-turmeric) 100%);
+}
+

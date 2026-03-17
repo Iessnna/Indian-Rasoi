@@ -1,0 +1,5 @@
+{
+  "name": "Indian Rasoi",
+  "description": "Your personal AI chef for authentic Indian recipes, budget-friendly meal planning, and culinary expertise.",
+  "requestFramePermissions": ["geolocation"]
+}
